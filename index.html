@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#180f20" />
+  <title>Olivia & James — Wedding Invitation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body class="locked">
+  <div class="opening-screen" id="openingScreen">
+    <div class="ambient-stars" aria-hidden="true"></div>
+    <div class="opening-header">THE WEDDING OF <span>OLIVIA & JAMES</span></div>
+    <div class="envelope-scene" id="envelopeScene">
+      <div class="invitation-glow" aria-hidden="true"></div>
+      <div class="invitation-peek" aria-hidden="true"><span>O <i>&</i> J</span><small>FOREVER BEGINS HERE</small></div>
+      <div class="envelope" id="envelope">
+        <div class="envelope-back"></div>
+        <div class="envelope-fold fold-left"><span class="fold-ornament">❀</span></div>
+        <div class="envelope-fold fold-right"><span class="fold-ornament">❀</span></div>
+        <div class="wax-seal" aria-hidden="true">O<span>&</span>J</div>
+      </div>
+      <div class="butterfly-field" id="butterflyField" aria-hidden="true"></div>
+      <div class="sparkle-field" id="sparkleField" aria-hidden="true"></div>
+    </div>
+    <button class="open-button" id="openButton" aria-label="Open the wedding invitation"><span class="button-spark">✧</span> OPEN OUR INVITATION <span class="button-spark">✧</span></button>
+    <p class="opening-hint">A special celebration awaits you</p>
+  </div>
+
+  <main class="wedding-site" id="weddingSite" aria-hidden="true">
+    <nav class="top-nav"><a class="brand" href="#home">O <span>&</span> J</a><div class="nav-links"><a href="#story">Our Story</a><a href="#details">The Day</a><a href="#gallery">Gallery</a><a href="#film">Film</a></div><a class="music-toggle" href="#film" aria-label="Watch our wedding film">▶ <span>Our Film</span></a></nav>
+    <section class="hero section" id="home"><div class="petal petal-one">✿</div><div class="petal petal-two">✿</div><div class="hero-halo"></div><div class="ornament">✧ &nbsp; TOGETHER WITH OUR FAMILIES &nbsp; ✧</div><p class="eyebrow">JOYFULLY INVITE YOU TO CELEBRATE THE MARRIAGE OF</p><h1>Olivia <span>&</span> James</h1><div class="hero-divider">❦</div><p class="hero-date">SATURDAY · JUNE 12 · 2027</p><p class="hero-location">Rosewood Garden · New York</p><a class="outline-button" href="#details">DISCOVER OUR DAY <span>↓</span></a><p class="scroll-cue">SCROLL TO EXPLORE <span>↓</span></p></section>
+    <section class="story-section section reveal" id="story"><div class="section-symbol">❧</div><p class="eyebrow dark">A LOVE WORTH CELEBRATING</p><h2>Our Forever <em>Starts Here</em></h2><p class="story-copy">Every beautiful love story has a beginning. Ours has led us to a moment we can't imagine celebrating without you. Join us as we promise forever, surrounded by the people who mean the most.</p><div class="quote-line">“The best thing to hold onto in life is each other.”</div></section>
+    <section class="countdown-section section reveal"><p class="eyebrow">COUNTING DOWN TO OUR DAY</p><h2>Until We Say <em>“I Do”</em></h2><div class="countdown" id="countdown"><div><strong id="days">--</strong><span>DAYS</span></div><div><strong id="hours">--</strong><span>HOURS</span></div><div><strong id="minutes">--</strong><span>MINUTES</span></div><div><strong id="seconds">--</strong><span>SECONDS</span></div></div></section>
+    <section class="details-section section reveal" id="details"><div class="section-symbol">❦</div><p class="eyebrow dark">SAVE THE DATE</p><h2>The Wedding <em>Celebration</em></h2><div class="detail-grid"><article class="detail-card"><div class="card-illustration">♧</div><p class="card-kicker">THE CEREMONY</p><h3>Exchange of Vows</h3><p>Saturday, June 12, 2027</p><p>4:00 PM</p><span class="card-line"></span><p>Rosewood Garden<br>New York, NY</p><a href="https://www.google.com/maps/search/?api=1&query=New+York+Botanical+Garden" target="_blank" rel="noopener noreferrer">VIEW LOCATION ↗</a></article><article class="detail-card"><div class="card-illustration">✧</div><p class="card-kicker">THE RECEPTION</p><h3>Dinner & Dancing</h3><p>Saturday, June 12, 2027</p><p>6:00 PM onwards</p><span class="card-line"></span><p>The Grand Ballroom<br>New York, NY</p><a href="https://www.google.com/maps/search/?api=1&query=New+York+NY" target="_blank" rel="noopener noreferrer">VIEW LOCATION ↗</a></article></div></section>
+    <section class="gallery-section section reveal" id="gallery">
+      <div class="section-symbol">✿</div><p class="eyebrow dark">MOMENTS TO CHERISH</p>
+      <h2>Our Little <em>Love Gallery</em></h2>
+      <p class="gallery-lead">A collection of the moments that brought us here.</p>
+      <div class="gallery-grid">
+        <button class="gallery-photo tall" type="button" data-full="https://images.unsplash.com/photo-1537633552985-df8429e8048b?w=1800&q=85" aria-label="Open photo 1"><img loading="lazy" src="https://images.unsplash.com/photo-1537633552985-df8429e8048b?w=900&q=85" alt="Romantic wedding moment" /><span>01 · Our Moments ↗</span></button>
+        <button class="gallery-photo" type="button" data-full="https://images.unsplash.com/photo-1519741497674-611481863552?w=1800&q=85" aria-label="Open photo 2"><img loading="lazy" src="https://images.unsplash.com/photo-1519741497674-611481863552?w=900&q=85" alt="Wedding celebration outdoors" /><span>02 · Forever ↗</span></button>
+        <button class="gallery-photo" type="button" data-full="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=1800&q=85" aria-label="Open photo 3"><img loading="lazy" src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=900&q=85" alt="Beautiful wedding celebration" /><span>03 · Happiness ↗</span></button>
+        <button class="gallery-photo wide" type="button" data-full="https://images.unsplash.com/photo-1523438885200-e635ba2c371e?w=1800&q=85" aria-label="Open photo 4"><img loading="lazy" src="https://images.unsplash.com/photo-1523438885200-e635ba2c371e?w=1200&q=85" alt="Bride and groom together" /><span>04 · Together ↗</span></button>
+      </div><p class="gallery-note">Demo images — replace the image URLs with your own wedding photos.</p>
+    </section>
+    <section class="film-section section reveal" id="film">
+      <div class="film-stars" aria-hidden="true"></div><p class="eyebrow">OUR STORY IN MOTION</p>
+      <h2>A Film About <em>Us</em></h2><p class="film-intro">A few beautiful frames, a thousand unforgettable feelings.</p>
+      <div class="film-frame"><div class="film-poster"><span class="film-ornament">❦</span><p>OLIVIA & JAMES</p><small>THE WEDDING FILM</small></div>
+        <button id="playFilm" class="film-play" type="button" aria-label="Play wedding film">▶</button>
+        <div class="film-caption">PRESS PLAY TO WATCH OUR FILM</div>
+      </div>
+      <p class="film-note">To show your own video, add <code>assets/wedding-film.mp4</code> to this project.</p>
+    </section>
+    <section class="closing-section section reveal"><div class="closing-flower" aria-hidden="true">❀</div><p class="eyebrow dark">WITH ALL OUR LOVE</p><h2>Your Presence Makes <em>Our Day Special</em></h2><p>We warmly invite you to witness our beginning and celebrate this beautiful chapter with us.</p><div class="closing-monogram">O <span>&</span> J</div></section>
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" aria-hidden="true"><button type="button" class="modal-close" id="closeLightbox" aria-label="Close photo">×</button><button type="button" class="modal-arrow left-arrow" id="prevPhoto" aria-label="Previous photo">‹</button><img id="lightboxImage" alt="Enlarged wedding gallery photo" /><button type="button" class="modal-arrow right-arrow" id="nextPhoto" aria-label="Next photo">›</button></div>
+    <div class="video-modal" id="videoModal" role="dialog" aria-modal="true" aria-label="Wedding video" aria-hidden="true"><button type="button" class="modal-close" id="closeVideo" aria-label="Close video">×</button><div class="video-box"><video id="weddingVideo" controls playsinline preload="none" poster="https://images.unsplash.com/photo-1519741497674-611481863552?w=1200&q=85"><source src="assets/wedding-film.mp4" type="video/mp4">Your browser does not support video.</video><p id="videoNotice" class="video-notice" aria-live="polite">Add your wedding video as <strong>assets/wedding-film.mp4</strong> to play it here.</p></div></div>
+    <footer><span>O <i>&</i> J</span><p>WITH LOVE, OLIVIA & JAMES</p><small>JUNE 12, 2027 · NEW YORK</small></footer>
+  </main>
+</body>
+</html>
